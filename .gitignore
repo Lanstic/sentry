@@ -1,0 +1,20 @@
+# Build and runtime outputs
+**/build/
+**/log/
+**/install/
+**/logs/
+
+# Local editor and agent state
+.vscode/
+.agents/
+.codex/
+
+# Nested repository metadata; the top-level sentry repository owns this tree.
+**/.git/
+
+# Generated Python and editor swap files
+**/__pycache__/
+*.pyc
+*.pyo
+*.swp
+*.swo
